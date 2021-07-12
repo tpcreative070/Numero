@@ -28,8 +28,8 @@
 
 class Converter {
   
-  func convert(_ number: Int) -> String {
-    var localNumber = number
+  func convert(_ _number: Int) -> String {
+    var localNumber = _number
     var result = ""
 
     let numberSymbols: [(number: Int, symbol: String)] =
