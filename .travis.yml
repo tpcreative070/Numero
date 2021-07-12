@@ -15,4 +15,7 @@ script:
 
 notifications:
   email:
-    - tpcreative.co@gmail.com
+    recipients:
+      - tpcreative.co@gmail.com
+    on_success: always # default: change
+    on_failure: always # default: always
