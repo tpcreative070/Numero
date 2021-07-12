@@ -7,8 +7,10 @@ xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone 8
 
 language: ruby
 rvm:
- - 2.4.5
- - jruby
+  - 2.5
+  - 2.6
+  - jruby
+  - truffleruby
 
 script:
 - fastlane scan
