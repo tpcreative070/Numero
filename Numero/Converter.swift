@@ -27,11 +27,9 @@
 /// THE SOFTWARE.
 
 class Converter {
-  
   func convert(_ _number: Int) -> String {
     var localNumber = _number
     var result = ""
-
     let numberSymbols: [(number: Int, symbol: String)] =
       [(1000, "M"),
        (900, "CM"),
@@ -46,15 +44,12 @@ class Converter {
        (5, "V"),
        (4, "IV"),
        (1, "I")]
-    
     for item in numberSymbols {
       while localNumber >= item.number {
         result += item.symbol
         localNumber = localNumber - item.number
       }
     }
-
     return result
   }
-  
 }
