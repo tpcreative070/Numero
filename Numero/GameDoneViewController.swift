@@ -31,9 +31,7 @@ import UIKit
 class GameDoneViewController: UIViewController {
 
   @IBOutlet weak var scoreLabel: UILabel!
-  
   var score: Int?
-  
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -45,6 +43,4 @@ class GameDoneViewController: UIViewController {
   @IBAction func playAgainPressed(_ sender: Any) {
     presentingViewController?.dismiss(animated: true, completion: nil)
   }
-
-
 }
