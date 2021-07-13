@@ -36,7 +36,6 @@ class Game {
   var numbersToConvert: [Int]
   var answersToDisplay: [String]
   var isCorrectConversion: [Bool]
-  
   var converter: Converter
   
   init() {
