@@ -25,11 +25,9 @@
 /// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 /// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 /// THE SOFTWARE.
-
 // Source: http://stackoverflow.com/a/24029847/1855792 - Nate Cooke
 
 import Foundation
-
 extension MutableCollection {
   /// Shuffles the contents of this collection.
   mutating func shuffle() {
