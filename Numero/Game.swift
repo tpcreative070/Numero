@@ -75,7 +75,6 @@ class Game {
   func reset() {
     score = 0
     attempt = 0
-    
     numbersToConvert.removeAll()
     answersToDisplay.removeAll()
     isCorrectConversion.removeAll()
