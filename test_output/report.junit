@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='NumeroTests.xctest' tests='10' failures='0'>
+  <testsuite name='NumeroTests.ConverterTests' tests='10' failures='0'>
+    <testcase classname='NumeroTests.ConverterTests' name='testConversionForFive' time='0.002'/>
+    <testcase classname='NumeroTests.ConverterTests' name='testConversionForFour' time='0.000'/>
+    <testcase classname='NumeroTests.ConverterTests' name='testConversionForNine' time='0.000'/>
+    <testcase classname='NumeroTests.ConverterTests' name='testConversionForOne' time='0.000'/>
+    <testcase classname='NumeroTests.ConverterTests' name='testConversionForSix' time='0.000'/>
+    <testcase classname='NumeroTests.ConverterTests' name='testConversionForTen' time='0.000'/>
+    <testcase classname='NumeroTests.ConverterTests' name='testConversionForTwenty' time='0.000'/>
+    <testcase classname='NumeroTests.ConverterTests' name='testConversionForTwo' time='0.000'/>
+    <testcase classname='NumeroTests.ConverterTests' name='testConverstionFor3999' time='0.000'/>
+    <testcase classname='NumeroTests.ConverterTests' name='testConverstionForZero' time='0.000'/>
+  </testsuite>
+</testsuites>
