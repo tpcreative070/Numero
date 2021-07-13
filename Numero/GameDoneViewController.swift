@@ -27,7 +27,6 @@
 /// THE SOFTWARE.
 
 import UIKit
-
 class GameDoneViewController: UIViewController {
 
   @IBOutlet weak var scoreLabel: UILabel!
